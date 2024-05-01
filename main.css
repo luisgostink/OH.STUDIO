@@ -1,0 +1,39 @@
+/* #main, body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.frame {
+    place-content: center flex-start;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 30px 40px;
+    position: relative;
+    width: 1px;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav ul {
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
